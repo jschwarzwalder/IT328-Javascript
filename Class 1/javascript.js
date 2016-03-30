@@ -37,7 +37,11 @@ document.write("<br />");
 var book = {
 	author: "Pablo Coelho",
 	title: "The Alchemist", 
-	publisher: "Harper Torch",
+	publisher: {
+		name: "Harper Torch",
+		location: "New York",
+		year: 1993
+		},
 	genres: ["quest", "survival", "fantasy", "drama"],
 	synopsis: "Quest and stuff..."
 };
@@ -46,4 +50,6 @@ document.write("<br />");
 document.write("Author: " + book.author);
 document.write("<br />");
 document.write("Title: " + book.title);
+document.write("<br />");
+document.write("Location: " + book.publisher.location);
 document.write("<br />");
