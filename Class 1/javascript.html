@@ -17,9 +17,14 @@
 		<li>Her Story</li>
 		<li>Portal</li>
 	</ul>
+	
+	<button onClick="bold()">Click me! </button>
 	<script>
+		function bold(){
+			document.getElementById("games").innerHTML = "Awesome games you should play!";
+		}
 		//change the <p> tag
-		document.getElementById("games").innerHTML = "Awesome games you should play!";
+		
 		document.getElementsByTagName('li').style.Color = "Navy";
 	</script>
   
