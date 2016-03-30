@@ -7,5 +7,12 @@ function foo() {
 	 i = 10
 	 document.write(i)
 }
+document.getElementsByTagName('li').style.color = 'white'; // doesn't work I don't know why
 
-document.getElementsByTagName('li').style.Color = "Navy";
+document.getElementById('games').style.color = 'navy'; //Works
+
+var myFoo = function() {
+	alert("Hello World!");
+}
+
+myFoo();
