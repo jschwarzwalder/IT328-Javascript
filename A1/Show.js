@@ -1,7 +1,7 @@
 var show = {
 	name:"Doctor Who", 
 	synopsis:"An alien travels around space and time with a companion, and occasionally saves the Earth. He really likes Great Britain, so many companions and adventures center around that country.", 
-	year: 1963, 2005,
+	year: [1963, 2005],
 	watch: [
 		"BBC One", 
 		"BBC America", 
@@ -113,4 +113,8 @@ var show = {
 			"Sarah Dollard"
 		]
 	}
+}
+
+function totalChannels (){
+	return show.watch.length;
 }
