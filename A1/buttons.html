@@ -1,38 +1,41 @@
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-button {
-	background-color: black;
-	color:white;
-}
 
-</style>
+<head>
+	<meta charset="utf">
+	<style>
+	button {
+		background-color: black;
+		color:white;
+	}
+
+	</style>
 </head>
 <body>
 
-<button id="red" onclick="redButton()" type="button">Red</button>
-<button id="white" onclick="whiteButton()" type="button">White</button>
-<button id="blue" onclick="blueButton()" type="button">Blue</button>
+	<button id="red" onclick="redButton()" type="button">Red</button>
+	<button id="white" onclick="whiteButton()" type="button">White</button>
+	<button id="blue" onclick="blueButton()" type="button">Blue</button>
 
-<button id="clear" onclick="clear()" type="button">Clear</button>
+	<button id="clear" onclick="clear()" type="button">Clear</button>
 
-<script>
-	function redButton (){
-		document.getElementById('red').style.backgroundColor = 'red';
-	}
-	function whiteButton (){
-		document.getElementById('white').style.backgroundColor = 'white';
-		document.getElementById('white').style.color = 'black';
-	}
-	function blueButton (){
-		document.getElementById('blue').style.backgroundColor = 'blue';
-	}
-	
-	function clear(){
-		document.getElementsByTagName('button').style.backgroundColor ='black';
-		document.getElementsByTagName('button').style.color ='white';
-	}
-	
-</script>
+	<script>
+		function redButton (){
+			document.getElementById('red').style.backgroundColor = 'red';
+		}
+		function whiteButton (){
+			document.getElementById('white').style.backgroundColor = 'white';
+			document.getElementById('white').style.color = 'black';
+		}
+		function blueButton (){
+			document.getElementById('blue').style.backgroundColor = 'blue';
+		}
+		
+		function clear(){
+			document.getElementsByTagName('button').style.backgroundColor ='black';
+			document.getElementsByTagName('button').style.color ='white';
+		}
+		
+	</script>
 </body>
 </html>
