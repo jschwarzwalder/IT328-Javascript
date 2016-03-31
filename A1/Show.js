@@ -3,12 +3,21 @@ var show = {
 	synopsis:"An alien travels around space and time with a companion, and occasionally saves the Earth. He really likes Great Britain, so many companions and adventures center around that country.", 
 	year: [1963, 2005],
 	watch: [
-		"BBC One", 
-		"BBC America", 
-		"Amazon", 
-		"Hulu", 
-		"Netflix", 
-		"Syfy Universal"
+		"BBC One ", 
+		"BBC America ", 
+		"Amazon ", 
+		"Hulu ", 
+		"Netflix ", 
+		"BBC Worldwide ",
+		"TVNZ (New Zealand) ",
+		"CITV (Canada) ",
+		"ABC (Australian Broadcasting Corporation) ",
+		"Syfy Universal (Syndication) ", 
+		"PBS (Syndication) ",
+		"CBC (Canada) ",
+		"Sci Fi / Syfy ",
+		
+		
 	],
 	artists: { 
 		doctor: [
