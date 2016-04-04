@@ -17,7 +17,7 @@
 	<button id="white" onclick="whiteButton()" type="button">White</button>
 	<button id="blue" onclick="blueButton()" type="button">Blue</button>
 
-	<button id="clear" onclick="clear()" type="button">Clear</button>
+	<button id="clear" onclick="reset()" type="button">Clear</button>
 
 	<script>
 		function redButton (){
@@ -31,8 +31,11 @@
 			document.getElementById('blue').style.backgroundColor = 'blue';
 		}
 		
-		function clear(){
-			document.getElementsByTagName('button').style ='initial';
+		function reset(){
+			document.getElementById('red').style ="initial" ;
+			document.getElementById('blue').style ="initial" ;
+			document.getElementById('white').style ="initial" ;
+
 		}
 		
 	</script>
